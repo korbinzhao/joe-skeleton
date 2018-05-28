@@ -1,0 +1,33 @@
+{
+  "name": "joe-skeleton",
+  "version": "0.0.1",
+  "description": "骨骼图生成组件",
+  "author": "",
+  "main": "src/index.js",
+  "bin": {
+    "skeleton": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vue-webpack-generator.git"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "co": "^4.6.0",
+    "compress-images": "^1.2.0",
+    "css-tree": "^1.0.0-alpha.28",
+    "fs": "^0.0.1-security",
+    "html-minifier": "^3.5.14",
+    "imagemin": "^5.3.1",
+    "imagemin-pngquant": "^5.1.0",
+    "jsdom": "^11.7.0",
+    "path": "^0.12.7",
+    "puppeteer": "^1.2.0"
+  },
+  "devDependencies": {}
+}
